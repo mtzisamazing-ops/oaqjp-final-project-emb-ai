@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emotion Detection</title>
+    <script type="text/javascript" src="./static/mywebscript.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Emotion Detection System</h1>
+        <hr>
+        <div class="form-group">
+            <label for="textToAnalyze">Enter text to analyze:</label>
+            <input type="text" class="form-control" id="textToAnalyze" name="textToAnalyze" placeholder="Type here...">
+        </div>
+        <button class="btn btn-primary" onclick="RunSentimentAnalysis()">Run Sentiment Analysis</button>
+        <br><br>
+        <div id="system_response" class="alert alert-info"></div>
+    </div>
+</body>
+</html>
